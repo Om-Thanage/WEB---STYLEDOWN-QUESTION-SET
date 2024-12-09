@@ -176,16 +176,14 @@ section {
 
 .events-section ul {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 1rem;
     padding: 1rem;
     list-style: none;
     text-align: left;
     width: 100%;
-    overflow-x: scroll;
-    scrollbar-width: 2px;
-    scrollbar-color: #3DB0DD black;
     border-radius: 10px;
 }
 
